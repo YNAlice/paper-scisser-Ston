@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>剪刀石頭布</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+	<h1>剪刀石頭布遊戲</h1>
+	<div id="container">
+		<p>玩家請出拳吧! <span id="totalWin">你獲勝了<span id="winNum">0</span>次。</span></p>
+		<div id="page1">
+			<img src="./img/paper.png" class="item" id="item1" name="0">布</img>
+			<img src="./img/scissor.png" class="item" id ="item2" name="1">剪刀</img>
+			<img src="./img/stone.png" class="item" id ="item3" name="2">石頭</img>
+		</div>
+		<div id="page2"></div>
+		<div id="results"></div>
+		<button id="nextRound" class="hidden">下一輪</button>
+		<button id="restart" class="hidden">重新開始</button>
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>
